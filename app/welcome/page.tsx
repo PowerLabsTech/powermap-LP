@@ -34,7 +34,7 @@ const forecastFeatures = [
     body: "See an estimate of how many hours of electricity your location could have today. Plan your work day, and where you need to be.",
     link: "Check your Power Forecast",
     href: `${APP_URL}/forecast`,
-    image: "/mockups/power-forecast-crop.jpg",
+    image: "/landing-static/mockups/power-forecast-crop.jpg",
     imageClass: "forecast-image",
   },
   {
@@ -133,7 +133,7 @@ export default function Home() {
         <h2>See How It Works</h2>
         <figure className="reference-card video-reference">
           <img
-            src="/mockups/grid-feed.jpg"
+            src="/landing-static/mockups/grid-feed.jpg"
             alt="Power grid video preview with a Power Feed tweet inside a phone"
           />
         </figure>
@@ -165,7 +165,7 @@ export default function Home() {
         </a>
         <figure className="reference-card release-reference">
           <img
-            src="/mockups/release-crop.jpg"
+            src="/landing-static/mockups/release-crop.jpg"
             alt="What's new on PowerMap release preview"
           />
         </figure>
