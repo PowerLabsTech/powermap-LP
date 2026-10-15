@@ -5,9 +5,6 @@ import { useState } from "react";
 import {
   ChevronDown,
   Menu,
-  ShieldCheck,
-  Smartphone,
-  Star,
 } from "lucide-react";
 
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? "";
